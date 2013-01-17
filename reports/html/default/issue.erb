@@ -1,0 +1,220 @@
+            <div class="issue">
+
+                <h3 id="issue_<%=idx%>">
+                    <a href="#issue_<%=idx%>">[<%=idx%>] <%=escapeHTML(issue.name)%></a>
+                </h3>
+
+                <% if crypto_issues.is_a?( Array ) && crypto_issues[idx-1] %>
+                <p>
+                    <form name="false_positive_<%=j%>" id="false_positive_<%=idx%>">
+                        <input type="hidden" name="module" value="<%=escapeHTML(issue.internal_modname)%>" />
+                        <input type="hidden" name="url" value="<%=escapeHTML(issue.url)%>" />
+                        <input type="hidden" name="issue" value="<%=crypto_issues[idx-1]%>" />
+                        <input onclick="javascript:report_fp( <%=idx%> );" type="button" value="Report false positive" />
+                    </form>
+                </p>
+                <% end %>
+                 <!-- <dl class="dl-horizontal">
+                            <dt>...</dt>
+                            <dd>...</dd>
+                        </dl>-->
+
+                <div class="left">
+                    <dl class="dl-horizontal">
+                      <dt>Module name:</dt> 
+                      <dd><%=escapeHTML(issue.mod_name)%></dd>
+                   </dl>
+                
+
+                   <% if issue.var %>
+                   <dl class="dl-horizontal">
+                    <dt>Affected variable:</dt> 
+                    <dd><%=escapeHTML(issue.var)%></dd>
+                </dl>
+                <%end%>
+
+                    <dl class="dl-horizontal">
+                    <dt>Affected URL:</dt> <dd><a href="<%=escapeHTML(issue.url)%>"><%=escapeHTML(issue.url)%></a></dd> </dl>
+                    <dl class="dl-horizontal">
+                    <dt>HTML Element:</dt> <dd><%=issue.elem%></dd> </dl>
+                    <dl class="dl-horizontal">
+                    <dt>Requires manual<br>verification?:</dt> <dd><%=issue.verification ? 'Yes' : 'No'%></dd> </dl>
+                    <hr/>
+
+                    <% if issue.cwe %>
+                    <dl class="dl-horizontal">
+                    <dt>CWE:</dt> <dd><%=issue.cwe%><br/>
+                    (<a target="_blank" href="<%=issue.cwe_url%>"><%=issue.cwe_url%></a>)</dd> </dl>
+                    <%end%>
+
+                    <dl class="dl-horizontal">
+                    <dt>Severity:</dt> <dd><%=issue.severity%></dd> </dl>
+                    <dl class="dl-horizontal">
+                    <dt>CVSSV2:</dt> <dd><%=issue.cvssv2%></dd> </dl>
+
+                    
+
+                    <p>
+                        <span class="label label-warning">References</span>
+                        <ul>
+                            <% if issue.references && !issue.references.empty? %>
+                            <% issue.references.each_pair do |source, url| %>
+
+                            <li><%=escapeHTML(source)%> - <a target="_blank" href="<%=url%>"><%=url%></a></li>
+
+                            <%end%>
+                            <%else%>
+                                <li>N/A</li>
+                            <%end%>
+                        </ul>
+                    </p>
+
+                </div>
+
+                <div class="right">
+                    <p>
+                        <span class="label label-warning">Description</span>
+                        <blockquote><p><%=escapeHTML(issue.description)%></p></blockquote>
+                    </p>
+
+                    <% if issue.remedy_guidance && !issue.remedy_guidance.empty? %>
+                    <p>
+                        <span class="label label-warning">Remedial guidance</span>
+                        <blockquote><p><%=escapeHTML(issue.remedy_guidance)%></p></blockquote>
+                    </p>
+                    <%end%>
+
+                    <% if issue.remedy_code && !issue.remedy_code.empty? %>
+                    <p>
+                        <h3>Remedial code</h3>
+                        <pre class="code notice"><%=escapeHTML(issue.remedy_code)%></pre>
+                    </p>
+                    <%end%>
+
+
+                </div>
+
+                <div class="clear variations" style="display: block;">
+                    <% issue.variations.each_with_index do |variation, j| %>
+                    <% var_idx = j + 1%>
+
+                    <h5 class="variation_header">
+                        <a href='javascript:toggleElem( "var_<%=var_idx%>_<%=idx%>" )'>
+                            <span id="var_<%=var_idx%>_<%=idx%>_sign">[+]</span>
+                            Variation <%=var_idx%>
+                        </a>
+                    </h5>
+
+                    <span class="label label-warning">Affected URL</span>:
+                    <p class="notice"><a href="<%=escapeHTML(variation['url'])%>"><%=escapeHTML(variation['url'])%></a></p>
+
+                    <% if (variation['response'] && !variation['response'].empty?) && variation['regexp_match'] %>
+
+                    <div class="hidden" id="inspection-dialog_<%=var_idx%>_<%=idx%>" title="Relevant content is shown in red. (Hit Esc to close)">
+                        <% match = escapeHTML( variation['regexp_match'] )%>
+                        <pre> <%=escapeHTML( variation['response'] ).gsub( match, '<strong style="color: red">' + match + '</strong>' ) %> </pre>
+                    </div>
+
+                    <form style="display:inline" action="#">
+                        <input onclick="javascript:inspect( '#inspection-dialog_<%=var_idx%>_<%=idx%>')" type="button" value="Inspect" />
+                    </form>
+
+                    <%end%>
+
+                    <% if issue.method && (issue.elem.downcase == 'form' || issue.elem.downcase == 'link' ) &&
+                        ( issue.method.downcase == 'get' || issue.method.downcase == 'post' ) %>
+                    <form style="display:inline" action="<%=variation['opts'][:action]%>" target="_blank" method="<%=issue.method.downcase%>">
+                    <% if variation['opts'][:combo]%>
+                    <%variation['opts'][:combo].each_pair do |name, value|%>
+                        <input type="hidden" name="<%=escapeHTML(name)%>" value="<%=escapeHTML( value )%>" />
+                    <%end%>
+                    <%end%>
+                        <input type="submit" value="Replay" />
+                    </form>
+                    <%end%>
+
+                    <br/><br/>
+
+                    <div class="variation" id="var_<%=var_idx%>_<%=idx%>">
+
+                        <% if variation['injected'] %>
+                        <strong>Injected value</strong>:
+                        <pre> <%=escapeHTML(variation['injected'])%> </pre>
+                        <br/>
+                        <%end%>
+
+                        <% if variation['id'] %>
+                        <strong>ID</strong>:
+                        <pre><%=escapeHTML(variation['id'])%></pre>
+                        <br/>
+                        <%end%>
+
+                        <% if variation['regexp'] %>
+                        <strong>Regular expression</strong>:
+                        <pre><%=escapeHTML(variation['regexp'])%></pre>
+                        <br/>
+                        <%end%>
+
+                        <% if variation['regexp_match'] %>
+                        <strong>Matched by the regular expression</strong>:
+                        <pre><%=escapeHTML(variation['regexp_match'])%> </pre>
+                        <%end%>
+
+                        <br/>
+                        <!--<table>
+                            
+                            <thead>
+                            <tr>
+                            <th>...</th>
+                            <th>...</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                            <td>...</td>
+                            <td>...</td>
+                            </tr>
+                            </tbody>
+                            </table>-->
+
+
+                        <table class="table table-striped">
+                            <thead>
+                            <tr>
+                                <th colspan="6" style="text-align: center">Headers</th>
+                            </tr>
+                            </thead>
+                            
+                            <thead>
+                            <tr>
+                                <th colspan="3" style="text-align: center">Request</th>
+                                <th colspan="3" style="text-align: center">Response</th>
+                            </tr>
+                            </thead>
+                        <tbody>
+                            <tr>
+                            <td>
+                                <%= erb :headers, { headers: variation['headers']['request'] } %></td>
+                                <td><%= erb :headers, { headers: variation['headers']['response'] } %>
+                            </td>
+                            </tr>
+                        </tbody>
+                        </table>
+
+                        <% if variation['escaped_response']%>
+                        <form style="display:inline" action="#">
+                            <input onclick="javascript:renderResponse( 'res_<%=var_idx%>_<%=idx%>', 'data:text/html;base64, <%= variation['escaped_response']%>' )"
+                            type="button" value="Render HTML response" />
+                        </form>
+                        <div id="res_<%=var_idx%>_<%=idx%>"></div>
+                        <%end%>
+
+                    </div>
+                    <%end%>
+
+                </div>
+
+                <p class="clear separator">&nbsp;</p>
+
+            </div>
+

@@ -1,0 +1,19 @@
+            <h2>Sitemap</h2>
+
+            <div id="sitemap-tabs">
+              <div class="tabbable">
+                <nav>
+                   <ul class="nav nav-tabs">
+                    <li><a href="#sitemap_list">URL List</a></li>
+                </ul>
+            </nav>
+
+            <div id='sitemap_list'>
+                <span class="label label-success">
+                <%=auditstore.sitemap.size%> pages</span><br/>
+                <% auditstore.sitemap.each do |url| %>
+                <a href="<%=escapeHTML(url)%>"><%=escapeHTML(url)%></a><br/>
+                <%end%>
+            </div>
+        </div>
+    </div>

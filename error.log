@@ -1,0 +1,794 @@
+
+2013-01-15 14:54:18 +0530 --------------------------------------------------------------------------------
+ENV:
+--- 
+SSH_AGENT_PID: "1855"
+rvm_bin_path: /home/vinny/.rvm/bin
+GEM_HOME: /home/vinny/.rvm/gems/ruby-1.9.3-p327
+GPG_AGENT_INFO: /tmp/keyring-iXG7l3/gpg:0:1
+TERM: xterm
+SHELL: /bin/bash
+XDG_SESSION_COOKIE: 5cae4d6882c0aaabf5d9397600000009-1358229073.760829-1094732040
+IRBRC: /home/vinny/.rvm/rubies/ruby-1.9.3-p327/.irbrc
+WINDOWID: "62914566"
+OLDPWD: /home/vinny
+GNOME_KEYRING_CONTROL: /tmp/keyring-iXG7l3
+MY_RUBY_HOME: /home/vinny/.rvm/rubies/ruby-1.9.3-p327
+USER: vinny
+LS_COLORS: "rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:"
+__array_start: "0"
+XDG_SESSION_PATH: /org/freedesktop/DisplayManager/Session0
+rvm_path: /home/vinny/.rvm
+XDG_SEAT_PATH: /org/freedesktop/DisplayManager/Seat0
+SSH_AUTH_SOCK: /tmp/keyring-iXG7l3/ssh
+SESSION_MANAGER: local/vinny-XPS-L412Z:@/tmp/.ICE-unix/1820,unix/vinny-XPS-L412Z:/tmp/.ICE-unix/1820
+DEFAULTS_PATH: /usr/share/gconf/ubuntu.default.path
+escape_flag: "1"
+XDG_CONFIG_DIRS: /etc/xdg/xdg-ubuntu:/etc/xdg
+rvm_prefix: /home/vinny
+PATH: /home/vinny/.rvm/gems/ruby-1.9.3-p327/bin:/home/vinny/.rvm/gems/ruby-1.9.3-p327@global/bin:/home/vinny/.rvm/rubies/ruby-1.9.3-p327/bin:/home/vinny/.rvm/bin:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+DESKTOP_SESSION: ubuntu
+PWD: /home/vinny/arachni
+GNOME_KEYRING_PID: "1809"
+LANG: en_IN
+MANDATORY_PATH: /usr/share/gconf/ubuntu.mandatory.path
+_second: "1"
+UBUNTU_MENUPROXY: libappmenu.so
+COMPIZ_CONFIG_PROFILE: ubuntu
+GDMSESSION: ubuntu
+rvm_version: 1.17.0 (stable)
+SHLVL: "1"
+HOME: /home/vinny
+LANGUAGE: en_IN:en
+GNOME_DESKTOP_SESSION_ID: this-is-deprecated
+_first: "0"
+LOGNAME: vinny
+GEM_PATH: /home/vinny/.rvm/gems/ruby-1.9.3-p327:/home/vinny/.rvm/gems/ruby-1.9.3-p327@global
+XDG_DATA_DIRS: /usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/
+DBUS_SESSION_BUS_ADDRESS: unix:abstract=/tmp/dbus-UJKmjw8yfk,guid=d47ea43b21e3acca93337d570000003e
+LESSOPEN: "| /usr/bin/lesspipe %s"
+DISPLAY: ":0"
+XDG_CURRENT_DESKTOP: Unity
+RUBY_VERSION: ruby-1.9.3-p327
+LESSCLOSE: /usr/bin/lesspipe %s %s
+COLORTERM: gnome-terminal
+XAUTHORITY: /home/vinny/.Xauthority
+_: /home/vinny/.rvm/gems/ruby-1.9.3-p327/bin/arachni
+_ORIGINAL_GEM_PATH: /home/vinny/.rvm/gems/ruby-1.9.3-p327:/home/vinny/.rvm/gems/ruby-1.9.3-p327@global
+BUNDLE_GEMFILE: /home/vinny/arachni/Gemfile
+BUNDLE_BIN_PATH: /home/vinny/.rvm/gems/ruby-1.9.3-p327/gems/bundler-1.2.3/bin/bundle
+RUBYOPT: -I/home/vinny/.rvm/gems/ruby-1.9.3-p327/gems/bundler-1.2.3/lib -rbundler/setup
+--------------------------------------------------------------------------------
+OPTIONS:
+--- !ruby/object:Arachni::Options 
+arachni_verbose: true
+audit_cookies: true
+audit_cookies_extensively: false
+audit_forms: true
+audit_links: true
+auto_redundant: false
+cookies: 
+- !ruby/object:Arachni::Element::Cookie 
+  action: http://anti-piracy.in/wp-login.php?reauth=1&redirect_to=http://anti-piracy.in/wp-admin/
+  auditable: 
+    wordpress_test_cookie: WP Cookie check
+  hash: -2508264412827422224
+  method: get
+  opts: {}
+
+  orig: 
+    wordpress_test_cookie: WP Cookie check
+  override_instance_scope: false
+  raw: 
+    name: wordpress_test_cookie
+    value: WP Cookie check
+    version: 0
+    port: 
+    discard: 
+    comment_url: 
+    expires: 
+    max_age: 
+    comment: 
+    secure: 
+    path: /
+    domain: anti-piracy.in
+    httponly: false
+  url: http://anti-piracy.in/wp-login.php?reauth=1&redirect_to=http://anti-piracy.in/wp-admin/
+- !ruby/object:Arachni::Element::Cookie 
+  action: http://anti-piracy.in/wp-login.php?reauth=1&redirect_to=http://anti-piracy.in/wp-admin/
+  auditable: 
+    wordpress_f62809118c85bf31632348835d636317: " "
+  hash: 1527490161719702767
+  method: get
+  opts: {}
+
+  orig: 
+    wordpress_f62809118c85bf31632348835d636317: " "
+  override_instance_scope: false
+  raw: 
+    name: wordpress_f62809118c85bf31632348835d636317
+    value: " "
+    version: 0
+    port: 
+    discard: 
+    comment_url: 
+    expires: 2012-01-16 14:33:30 +05:30
+    max_age: 
+    comment: 
+    secure: 
+    path: /wp-admin
+    domain: anti-piracy.in
+    httponly: false
+  url: http://anti-piracy.in/wp-login.php?reauth=1&redirect_to=http://anti-piracy.in/wp-admin/
+- !ruby/object:Arachni::Element::Cookie 
+  action: http://anti-piracy.in/wp-login.php?reauth=1&redirect_to=http://anti-piracy.in/wp-admin/
+  auditable: 
+    wordpress_sec_f62809118c85bf31632348835d636317: " "
+  hash: -709208077768567045
+  method: get
+  opts: {}
+
+  orig: 
+    wordpress_sec_f62809118c85bf31632348835d636317: " "
+  override_instance_scope: false
+  raw: 
+    name: wordpress_sec_f62809118c85bf31632348835d636317
+    value: " "
+    version: 0
+    port: 
+    discard: 
+    comment_url: 
+    expires: 2012-01-16 14:33:30 +05:30
+    max_age: 
+    comment: 
+    secure: 
+    path: /wp-admin
+    domain: anti-piracy.in
+    httponly: false
+  url: http://anti-piracy.in/wp-login.php?reauth=1&redirect_to=http://anti-piracy.in/wp-admin/
+- !ruby/object:Arachni::Element::Cookie 
+  action: http://anti-piracy.in/wp-login.php?reauth=1&redirect_to=http://anti-piracy.in/wp-admin/
+  auditable: 
+    wordpress_logged_in_f62809118c85bf31632348835d636317: " "
+  hash: 1230443152565519925
+  method: get
+  opts: {}
+
+  orig: 
+    wordpress_logged_in_f62809118c85bf31632348835d636317: " "
+  override_instance_scope: false
+  raw: 
+    name: wordpress_logged_in_f62809118c85bf31632348835d636317
+    value: " "
+    version: 0
+    port: 
+    discard: 
+    comment_url: 
+    expires: 2012-01-16 14:33:30 +05:30
+    max_age: 
+    comment: 
+    secure: 
+    path: /
+    domain: anti-piracy.in
+    httponly: false
+  url: http://anti-piracy.in/wp-login.php?reauth=1&redirect_to=http://anti-piracy.in/wp-admin/
+- !ruby/object:Arachni::Element::Cookie 
+  action: http://anti-piracy.in/wp-login.php?reauth=1&redirect_to=http://anti-piracy.in/wp-admin/
+  auditable: 
+    wordpressuser_f62809118c85bf31632348835d636317: " "
+  hash: -1412841655673311998
+  method: get
+  opts: {}
+
+  orig: 
+    wordpressuser_f62809118c85bf31632348835d636317: " "
+  override_instance_scope: false
+  raw: 
+    name: wordpressuser_f62809118c85bf31632348835d636317
+    value: " "
+    version: 0
+    port: 
+    discard: 
+    comment_url: 
+    expires: 2012-01-16 14:33:30 +05:30
+    max_age: 
+    comment: 
+    secure: 
+    path: /
+    domain: anti-piracy.in
+    httponly: false
+  url: http://anti-piracy.in/wp-login.php?reauth=1&redirect_to=http://anti-piracy.in/wp-admin/
+- !ruby/object:Arachni::Element::Cookie 
+  action: http://anti-piracy.in/wp-login.php?reauth=1&redirect_to=http://anti-piracy.in/wp-admin/
+  auditable: 
+    wordpresspass_f62809118c85bf31632348835d636317: " "
+  hash: 124469927988026203
+  method: get
+  opts: {}
+
+  orig: 
+    wordpresspass_f62809118c85bf31632348835d636317: " "
+  override_instance_scope: false
+  raw: 
+    name: wordpresspass_f62809118c85bf31632348835d636317
+    value: " "
+    version: 0
+    port: 
+    discard: 
+    comment_url: 
+    expires: 2012-01-16 14:33:30 +05:30
+    max_age: 
+    comment: 
+    secure: 
+    path: /
+    domain: anti-piracy.in
+    httponly: false
+  url: http://anti-piracy.in/wp-login.php?reauth=1&redirect_to=http://anti-piracy.in/wp-admin/
+custom_headers: {}
+
+datastore: {}
+
+delta_time: 1283.492259104
+depth_limit: -1
+dir: 
+  root: /home/vinny/arachni/
+  gfx: /home/vinny/arachni/gfx/
+  conf: /home/vinny/arachni/conf/
+  logs: /home/vinny/arachni/logs/
+  data: /home/vinny/arachni/data/
+  modules: /home/vinny/arachni/modules/
+  reports: /home/vinny/arachni/reports/
+  plugins: /home/vinny/arachni/plugins/
+  rpcd_handlers: /home/vinny/arachni/rpcd_handlers/
+  path_extractors: /home/vinny/arachni/path_extractors/
+  lib: /home/vinny/arachni/lib/arachni/
+  mixins: /home/vinny/arachni/lib/arachni/mixins/
+  arachni: /home/vinny/arachni/lib/arachni
+exclude: []
+
+exclude_binaries: false
+exclude_cookies: []
+
+exclude_vectors: []
+
+extend_paths: []
+
+follow_subdomains: true
+fuzz_methods: false
+http_req_limit: 20
+include: []
+
+link_count_limit: -1
+load_profile: 
+lsmod: []
+
+lsplug: []
+
+lsrep: []
+
+max_slaves: 10
+min_pages_per_instance: 30
+mods: 
+- csrf
+- trainer
+- session_fixation
+- sqli_blind_rdiff
+- xss
+- sqli_blind_timing
+- xss_uri
+- xss_path
+- sqli
+- xpath
+- xss_script_tag
+- ldapi
+- code_injection
+- response_splitting
+- xss_tag
+- os_cmd_injection
+- rfi
+- path_traversal
+- os_cmd_injection_timing
+- unvalidated_redirect
+- code_injection_timing
+- xss_event
+- http_only_cookies
+- ssn
+- credit_card
+- cvs_svn_users
+- html_objects
+- captcha
+- mixed_resource
+- insecure_cookies
+- private_ip
+- unencrypted_password_forms
+- emails
+- webdav
+- common_files
+- http_put
+- directory_listing
+- interesting_responses
+- htaccess_limit
+- common_directories
+- backup_files
+- backdoors
+- xst
+- allowed_methods
+obey_robots_txt: false
+plugins: {}
+
+redirect_limit: 20
+redundant: {}
+
+reports: 
+  html: 
+    outfile: my_r8.html
+restrict_paths: []
+
+rpc_instance_port_range: 
+- 1025
+- 65535
+start_datetime: 2013-01-15 14:32:45.678651 +05:30
+url: http://anti-piracy.in/
+user_agent: Arachni/v0.4.1.3
+--------------------------------------------------------------------------------
+[2013-01-15 14:54:18 +0530] SIGHUP
+[2013-01-15 14:54:18 +0530] /home/vinny/arachni/lib/arachni/ui/cli/cli.rb:111:in `join'
+[2013-01-15 14:54:18 +0530] /home/vinny/arachni/lib/arachni/ui/cli/cli.rb:111:in `run'
+[2013-01-15 14:54:18 +0530] /home/vinny/arachni/bin/arachni:24:in `<top (required)>'
+[2013-01-15 14:54:18 +0530] /home/vinny/.rvm/gems/ruby-1.9.3-p327/bin/arachni:19:in `load'
+[2013-01-15 14:54:18 +0530] /home/vinny/.rvm/gems/ruby-1.9.3-p327/bin/arachni:19:in `<main>'
+[2013-01-15 14:54:18 +0530] /home/vinny/.rvm/gems/ruby-1.9.3-p327/bin/ruby_noexec_wrapper:14:in `eval'
+[2013-01-15 14:54:18 +0530] /home/vinny/.rvm/gems/ruby-1.9.3-p327/bin/ruby_noexec_wrapper:14:in `<main>'
+
+2013-01-15 23:15:36 +0530 --------------------------------------------------------------------------------
+ENV:
+
+2013-01-16 15:18:44 +0530 --------------------------------------------------------------------------------
+ENV:
+--- 
+SSH_AGENT_PID: "1793"
+rvm_bin_path: /home/vinny/.rvm/bin
+GEM_HOME: /home/vinny/.rvm/gems/ruby-1.9.3-p327
+GPG_AGENT_INFO: /tmp/keyring-ZpvAE5/gpg:0:1
+TERM: xterm
+SHELL: /bin/bash
+XDG_SESSION_COOKIE: 5cae4d6882c0aaabf5d9397600000009-1358319048.793160-1203515977
+IRBRC: /home/vinny/.rvm/rubies/ruby-1.9.3-p327/.irbrc
+WINDOWID: "62914566"
+OLDPWD: /home/vinny
+GNOME_KEYRING_CONTROL: /tmp/keyring-ZpvAE5
+MY_RUBY_HOME: /home/vinny/.rvm/rubies/ruby-1.9.3-p327
+USER: vinny
+LS_COLORS: "rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:"
+__array_start: "0"
+XDG_SESSION_PATH: /org/freedesktop/DisplayManager/Session0
+rvm_path: /home/vinny/.rvm
+XDG_SEAT_PATH: /org/freedesktop/DisplayManager/Seat0
+SSH_AUTH_SOCK: /tmp/keyring-ZpvAE5/ssh
+SESSION_MANAGER: local/vinny-XPS-L412Z:@/tmp/.ICE-unix/1758,unix/vinny-XPS-L412Z:/tmp/.ICE-unix/1758
+DEFAULTS_PATH: /usr/share/gconf/ubuntu.default.path
+escape_flag: "1"
+XDG_CONFIG_DIRS: /etc/xdg/xdg-ubuntu:/etc/xdg
+rvm_prefix: /home/vinny
+PATH: /home/vinny/.rvm/gems/ruby-1.9.3-p327/bin:/home/vinny/.rvm/gems/ruby-1.9.3-p327@global/bin:/home/vinny/.rvm/rubies/ruby-1.9.3-p327/bin:/home/vinny/.rvm/bin:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+DESKTOP_SESSION: ubuntu
+PWD: /home/vinny/arachni
+GNOME_KEYRING_PID: "1747"
+LANG: en_IN
+MANDATORY_PATH: /usr/share/gconf/ubuntu.mandatory.path
+_second: "1"
+UBUNTU_MENUPROXY: libappmenu.so
+COMPIZ_CONFIG_PROFILE: ubuntu
+GDMSESSION: ubuntu
+rvm_version: 1.17.0 (stable)
+SHLVL: "1"
+HOME: /home/vinny
+LANGUAGE: en_IN:en
+GNOME_DESKTOP_SESSION_ID: this-is-deprecated
+_first: "0"
+LOGNAME: vinny
+GEM_PATH: /home/vinny/.rvm/gems/ruby-1.9.3-p327:/home/vinny/.rvm/gems/ruby-1.9.3-p327@global
+XDG_DATA_DIRS: /usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/
+DBUS_SESSION_BUS_ADDRESS: unix:abstract=/tmp/dbus-8FJZDu4lk9,guid=85027ee88222f5f8d423abd900000016
+LESSOPEN: "| /usr/bin/lesspipe %s"
+DISPLAY: ":0"
+XDG_CURRENT_DESKTOP: Unity
+RUBY_VERSION: ruby-1.9.3-p327
+LESSCLOSE: /usr/bin/lesspipe %s %s
+COLORTERM: gnome-terminal
+XAUTHORITY: /home/vinny/.Xauthority
+_: /home/vinny/.rvm/gems/ruby-1.9.3-p327/bin/arachni
+_ORIGINAL_GEM_PATH: /home/vinny/.rvm/gems/ruby-1.9.3-p327:/home/vinny/.rvm/gems/ruby-1.9.3-p327@global
+BUNDLE_GEMFILE: /home/vinny/arachni/Gemfile
+BUNDLE_BIN_PATH: /home/vinny/.rvm/gems/ruby-1.9.3-p327/gems/bundler-1.2.3/bin/bundle
+RUBYOPT: -I/home/vinny/.rvm/gems/ruby-1.9.3-p327/gems/bundler-1.2.3/lib -rbundler/setup
+--------------------------------------------------------------------------------
+OPTIONS:
+--- !ruby/object:Arachni::Options 
+arachni_verbose: true
+audit_cookies: true
+audit_cookies_extensively: false
+audit_forms: true
+audit_links: true
+auto_redundant: false
+cookies: []
+
+custom_headers: {}
+
+datastore: {}
+
+delta_time: 471.470872378
+depth_limit: -1
+dir: 
+  root: /home/vinny/arachni/
+  gfx: /home/vinny/arachni/gfx/
+  conf: /home/vinny/arachni/conf/
+  logs: /home/vinny/arachni/logs/
+  data: /home/vinny/arachni/data/
+  modules: /home/vinny/arachni/modules/
+  reports: /home/vinny/arachni/reports/
+  plugins: /home/vinny/arachni/plugins/
+  rpcd_handlers: /home/vinny/arachni/rpcd_handlers/
+  path_extractors: /home/vinny/arachni/path_extractors/
+  lib: /home/vinny/arachni/lib/arachni/
+  mixins: /home/vinny/arachni/lib/arachni/mixins/
+  arachni: /home/vinny/arachni/lib/arachni
+exclude: []
+
+exclude_binaries: false
+exclude_cookies: []
+
+exclude_vectors: []
+
+extend_paths: []
+
+finish_datetime: 2013-01-16 15:18:39.701414 +05:30
+follow_subdomains: true
+fuzz_methods: false
+http_req_limit: 20
+include: []
+
+link_count_limit: -1
+load_profile: 
+lsmod: []
+
+lsplug: []
+
+lsrep: []
+
+max_slaves: 10
+min_pages_per_instance: 30
+mods: 
+- csrf
+- trainer
+- session_fixation
+- sqli_blind_rdiff
+- xss
+- sqli_blind_timing
+- xss_uri
+- xss_path
+- sqli
+- xpath
+- xss_script_tag
+- ldapi
+- code_injection
+- response_splitting
+- xss_tag
+- os_cmd_injection
+- rfi
+- path_traversal
+- os_cmd_injection_timing
+- unvalidated_redirect
+- code_injection_timing
+- xss_event
+- http_only_cookies
+- ssn
+- credit_card
+- cvs_svn_users
+- html_objects
+- captcha
+- mixed_resource
+- insecure_cookies
+- private_ip
+- unencrypted_password_forms
+- emails
+- webdav
+- common_files
+- http_put
+- directory_listing
+- interesting_responses
+- htaccess_limit
+- common_directories
+- backup_files
+- backdoors
+- xst
+- allowed_methods
+obey_robots_txt: false
+plugins: {}
+
+redirect_limit: 20
+redundant: {}
+
+reports: 
+  html: 
+    outfile: my_rr6.html
+restrict_paths: []
+
+rpc_instance_port_range: 
+- 1025
+- 65535
+start_datetime: 2013-01-16 15:10:48.230541 +05:30
+url: http://nareshit.com/
+user_agent: Entersoft/v0.4.1.3
+--------------------------------------------------------------------------------
+[2013-01-16 15:18:44 +0530] #<NameError: undefined local variable or method `variation' for #<Arachni::Reports::HTML::TemplateScope:0x000000033aec30>>
+[2013-01-16 15:18:44 +0530] (erb):92:in `get_binding'
+[2013-01-16 15:18:44 +0530] /home/vinny/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/erb.rb:838:in `eval'
+[2013-01-16 15:18:44 +0530] /home/vinny/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/erb.rb:838:in `result'
+[2013-01-16 15:18:44 +0530] /home/vinny/arachni/reports/html.rb:59:in `erb'
+[2013-01-16 15:18:44 +0530] (erb):31:in `block in get_binding'
+[2013-01-16 15:18:44 +0530] (erb):28:in `each'
+[2013-01-16 15:18:44 +0530] (erb):28:in `each_with_index'
+[2013-01-16 15:18:44 +0530] (erb):28:in `get_binding'
+[2013-01-16 15:18:44 +0530] /home/vinny/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/erb.rb:838:in `eval'
+[2013-01-16 15:18:44 +0530] /home/vinny/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/erb.rb:838:in `result'
+[2013-01-16 15:18:44 +0530] /home/vinny/arachni/reports/html.rb:59:in `erb'
+[2013-01-16 15:18:44 +0530] (erb):65:in `get_binding'
+[2013-01-16 15:18:44 +0530] /home/vinny/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/erb.rb:838:in `eval'
+[2013-01-16 15:18:44 +0530] /home/vinny/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/erb.rb:838:in `result'
+[2013-01-16 15:18:44 +0530] /home/vinny/arachni/reports/html.rb:59:in `erb'
+[2013-01-16 15:18:44 +0530] /home/vinny/arachni/reports/html.rb:142:in `block in run'
+[2013-01-16 15:18:44 +0530] /home/vinny/arachni/reports/html.rb:142:in `open'
+[2013-01-16 15:18:44 +0530] /home/vinny/arachni/reports/html.rb:142:in `run'
+[2013-01-16 15:18:44 +0530] /home/vinny/arachni/lib/arachni/report/manager.rb:68:in `run_one'
+[2013-01-16 15:18:44 +0530] /home/vinny/arachni/lib/arachni/report/manager.rb:60:in `block (2 levels) in run'
+[2013-01-16 15:18:44 +0530] /home/vinny/arachni/lib/arachni/utilities.rb:276:in `call'
+[2013-01-16 15:18:44 +0530] /home/vinny/arachni/lib/arachni/utilities.rb:276:in `exception_jail'
+[2013-01-16 15:18:44 +0530] /home/vinny/arachni/lib/arachni/report/manager.rb:60:in `block in run'
+[2013-01-16 15:18:44 +0530] /home/vinny/arachni/lib/arachni/report/manager.rb:59:in `each'
+[2013-01-16 15:18:44 +0530] /home/vinny/arachni/lib/arachni/report/manager.rb:59:in `run'
+[2013-01-16 15:18:44 +0530] /home/vinny/arachni/lib/arachni/framework.rb:195:in `run'
+[2013-01-16 15:18:44 +0530] /home/vinny/arachni/lib/arachni/ui/cli/cli.rb:104:in `block in run'
+[2013-01-16 15:18:44 +0530] 
+[2013-01-16 15:18:44 +0530] Parent:
+[2013-01-16 15:18:44 +0530] Arachni::Report::Manager
+[2013-01-16 15:18:44 +0530] 
+[2013-01-16 15:18:44 +0530] Block:
+[2013-01-16 15:18:44 +0530] #<Proc:0x000000037170e8@/home/vinny/arachni/lib/arachni/report/manager.rb:60>
+[2013-01-16 15:18:44 +0530] 
+[2013-01-16 15:18:44 +0530] Caller:
+[2013-01-16 15:18:44 +0530] /home/vinny/arachni/lib/arachni/utilities.rb:276:in `exception_jail'
+[2013-01-16 15:18:44 +0530] /home/vinny/arachni/lib/arachni/report/manager.rb:60:in `block in run'
+[2013-01-16 15:18:44 +0530] /home/vinny/arachni/lib/arachni/report/manager.rb:59:in `each'
+[2013-01-16 15:18:44 +0530] /home/vinny/arachni/lib/arachni/report/manager.rb:59:in `run'
+[2013-01-16 15:18:44 +0530] /home/vinny/arachni/lib/arachni/framework.rb:195:in `run'
+[2013-01-16 15:18:44 +0530] /home/vinny/arachni/lib/arachni/ui/cli/cli.rb:104:in `block in run'
+[2013-01-16 15:18:44 +0530] --------------------------------------------------------------------------------
+
+2013-01-16 15:45:23 +0530 --------------------------------------------------------------------------------
+ENV:
+--- 
+SSH_AGENT_PID: "1793"
+rvm_bin_path: /home/vinny/.rvm/bin
+GEM_HOME: /home/vinny/.rvm/gems/ruby-1.9.3-p327
+GPG_AGENT_INFO: /tmp/keyring-ZpvAE5/gpg:0:1
+TERM: xterm
+SHELL: /bin/bash
+XDG_SESSION_COOKIE: 5cae4d6882c0aaabf5d9397600000009-1358319048.793160-1203515977
+IRBRC: /home/vinny/.rvm/rubies/ruby-1.9.3-p327/.irbrc
+WINDOWID: "62914566"
+OLDPWD: /home/vinny
+GNOME_KEYRING_CONTROL: /tmp/keyring-ZpvAE5
+MY_RUBY_HOME: /home/vinny/.rvm/rubies/ruby-1.9.3-p327
+USER: vinny
+LS_COLORS: "rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:"
+__array_start: "0"
+XDG_SESSION_PATH: /org/freedesktop/DisplayManager/Session0
+rvm_path: /home/vinny/.rvm
+XDG_SEAT_PATH: /org/freedesktop/DisplayManager/Seat0
+SSH_AUTH_SOCK: /tmp/keyring-ZpvAE5/ssh
+SESSION_MANAGER: local/vinny-XPS-L412Z:@/tmp/.ICE-unix/1758,unix/vinny-XPS-L412Z:/tmp/.ICE-unix/1758
+DEFAULTS_PATH: /usr/share/gconf/ubuntu.default.path
+escape_flag: "1"
+XDG_CONFIG_DIRS: /etc/xdg/xdg-ubuntu:/etc/xdg
+rvm_prefix: /home/vinny
+PATH: /home/vinny/.rvm/gems/ruby-1.9.3-p327/bin:/home/vinny/.rvm/gems/ruby-1.9.3-p327@global/bin:/home/vinny/.rvm/rubies/ruby-1.9.3-p327/bin:/home/vinny/.rvm/bin:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+DESKTOP_SESSION: ubuntu
+PWD: /home/vinny/arachni
+GNOME_KEYRING_PID: "1747"
+LANG: en_IN
+MANDATORY_PATH: /usr/share/gconf/ubuntu.mandatory.path
+_second: "1"
+UBUNTU_MENUPROXY: libappmenu.so
+COMPIZ_CONFIG_PROFILE: ubuntu
+GDMSESSION: ubuntu
+rvm_version: 1.17.0 (stable)
+SHLVL: "1"
+HOME: /home/vinny
+LANGUAGE: en_IN:en
+GNOME_DESKTOP_SESSION_ID: this-is-deprecated
+_first: "0"
+LOGNAME: vinny
+GEM_PATH: /home/vinny/.rvm/gems/ruby-1.9.3-p327:/home/vinny/.rvm/gems/ruby-1.9.3-p327@global
+XDG_DATA_DIRS: /usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/
+DBUS_SESSION_BUS_ADDRESS: unix:abstract=/tmp/dbus-8FJZDu4lk9,guid=85027ee88222f5f8d423abd900000016
+LESSOPEN: "| /usr/bin/lesspipe %s"
+DISPLAY: ":0"
+XDG_CURRENT_DESKTOP: Unity
+RUBY_VERSION: ruby-1.9.3-p327
+LESSCLOSE: /usr/bin/lesspipe %s %s
+COLORTERM: gnome-terminal
+XAUTHORITY: /home/vinny/.Xauthority
+_: /home/vinny/.rvm/gems/ruby-1.9.3-p327/bin/arachni
+_ORIGINAL_GEM_PATH: /home/vinny/.rvm/gems/ruby-1.9.3-p327:/home/vinny/.rvm/gems/ruby-1.9.3-p327@global
+BUNDLE_GEMFILE: /home/vinny/arachni/Gemfile
+BUNDLE_BIN_PATH: /home/vinny/.rvm/gems/ruby-1.9.3-p327/gems/bundler-1.2.3/bin/bundle
+RUBYOPT: -I/home/vinny/.rvm/gems/ruby-1.9.3-p327/gems/bundler-1.2.3/lib -rbundler/setup
+--------------------------------------------------------------------------------
+OPTIONS:
+--- !ruby/object:Arachni::Options 
+arachni_verbose: true
+audit_cookies: true
+audit_cookies_extensively: false
+audit_forms: true
+audit_links: true
+auto_redundant: false
+cookies: []
+
+custom_headers: {}
+
+datastore: {}
+
+delta_time: 669.628704576
+depth_limit: -1
+dir: 
+  root: /home/vinny/arachni/
+  gfx: /home/vinny/arachni/gfx/
+  conf: /home/vinny/arachni/conf/
+  logs: /home/vinny/arachni/logs/
+  data: /home/vinny/arachni/data/
+  modules: /home/vinny/arachni/modules/
+  reports: /home/vinny/arachni/reports/
+  plugins: /home/vinny/arachni/plugins/
+  rpcd_handlers: /home/vinny/arachni/rpcd_handlers/
+  path_extractors: /home/vinny/arachni/path_extractors/
+  lib: /home/vinny/arachni/lib/arachni/
+  mixins: /home/vinny/arachni/lib/arachni/mixins/
+  arachni: /home/vinny/arachni/lib/arachni
+exclude: []
+
+exclude_binaries: false
+exclude_cookies: []
+
+exclude_vectors: []
+
+extend_paths: []
+
+finish_datetime: 2013-01-16 15:45:18.815915 +05:30
+follow_subdomains: true
+fuzz_methods: false
+http_req_limit: 20
+include: []
+
+link_count_limit: -1
+load_profile: 
+lsmod: []
+
+lsplug: []
+
+lsrep: []
+
+max_slaves: 10
+min_pages_per_instance: 30
+mods: 
+- csrf
+- trainer
+- session_fixation
+- sqli_blind_rdiff
+- xss
+- sqli_blind_timing
+- xss_uri
+- xss_path
+- sqli
+- xpath
+- xss_script_tag
+- ldapi
+- code_injection
+- response_splitting
+- xss_tag
+- os_cmd_injection
+- rfi
+- path_traversal
+- os_cmd_injection_timing
+- unvalidated_redirect
+- code_injection_timing
+- xss_event
+- http_only_cookies
+- ssn
+- credit_card
+- cvs_svn_users
+- html_objects
+- captcha
+- mixed_resource
+- insecure_cookies
+- private_ip
+- unencrypted_password_forms
+- emails
+- webdav
+- common_files
+- http_put
+- directory_listing
+- interesting_responses
+- htaccess_limit
+- common_directories
+- backup_files
+- backdoors
+- xst
+- allowed_methods
+obey_robots_txt: false
+plugins: {}
+
+redirect_limit: 20
+redundant: {}
+
+reports: 
+  html: 
+    outfile: my_rr7.html
+restrict_paths: []
+
+rpc_instance_port_range: 
+- 1025
+- 65535
+start_datetime: 2013-01-16 15:34:09.187210 +05:30
+url: http://nareshit.com/
+user_agent: Entersoft/v0.4.1.3
+--------------------------------------------------------------------------------
+[2013-01-16 15:45:23 +0530] #<NameError: undefined local variable or method `variation' for #<Arachni::Reports::HTML::TemplateScope:0x00000001f66fc0>>
+[2013-01-16 15:45:23 +0530] (erb):92:in `get_binding'
+[2013-01-16 15:45:23 +0530] /home/vinny/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/erb.rb:838:in `eval'
+[2013-01-16 15:45:23 +0530] /home/vinny/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/erb.rb:838:in `result'
+[2013-01-16 15:45:23 +0530] /home/vinny/arachni/reports/html.rb:59:in `erb'
+[2013-01-16 15:45:23 +0530] (erb):31:in `block in get_binding'
+[2013-01-16 15:45:23 +0530] (erb):28:in `each'
+[2013-01-16 15:45:23 +0530] (erb):28:in `each_with_index'
+[2013-01-16 15:45:23 +0530] (erb):28:in `get_binding'
+[2013-01-16 15:45:23 +0530] /home/vinny/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/erb.rb:838:in `eval'
+[2013-01-16 15:45:23 +0530] /home/vinny/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/erb.rb:838:in `result'
+[2013-01-16 15:45:23 +0530] /home/vinny/arachni/reports/html.rb:59:in `erb'
+[2013-01-16 15:45:23 +0530] (erb):64:in `get_binding'
+[2013-01-16 15:45:23 +0530] /home/vinny/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/erb.rb:838:in `eval'
+[2013-01-16 15:45:23 +0530] /home/vinny/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/erb.rb:838:in `result'
+[2013-01-16 15:45:23 +0530] /home/vinny/arachni/reports/html.rb:59:in `erb'
+[2013-01-16 15:45:23 +0530] /home/vinny/arachni/reports/html.rb:142:in `block in run'
+[2013-01-16 15:45:23 +0530] /home/vinny/arachni/reports/html.rb:142:in `open'
+[2013-01-16 15:45:23 +0530] /home/vinny/arachni/reports/html.rb:142:in `run'
+[2013-01-16 15:45:23 +0530] /home/vinny/arachni/lib/arachni/report/manager.rb:68:in `run_one'
+[2013-01-16 15:45:23 +0530] /home/vinny/arachni/lib/arachni/report/manager.rb:60:in `block (2 levels) in run'
+[2013-01-16 15:45:23 +0530] /home/vinny/arachni/lib/arachni/utilities.rb:276:in `call'
+[2013-01-16 15:45:23 +0530] /home/vinny/arachni/lib/arachni/utilities.rb:276:in `exception_jail'
+[2013-01-16 15:45:23 +0530] /home/vinny/arachni/lib/arachni/report/manager.rb:60:in `block in run'
+[2013-01-16 15:45:23 +0530] /home/vinny/arachni/lib/arachni/report/manager.rb:59:in `each'
+[2013-01-16 15:45:23 +0530] /home/vinny/arachni/lib/arachni/report/manager.rb:59:in `run'
+[2013-01-16 15:45:23 +0530] /home/vinny/arachni/lib/arachni/framework.rb:195:in `run'
+[2013-01-16 15:45:23 +0530] /home/vinny/arachni/lib/arachni/ui/cli/cli.rb:104:in `block in run'
+[2013-01-16 15:45:23 +0530] 
+[2013-01-16 15:45:23 +0530] Parent:
+[2013-01-16 15:45:23 +0530] Arachni::Report::Manager
+[2013-01-16 15:45:23 +0530] 
+[2013-01-16 15:45:23 +0530] Block:
+[2013-01-16 15:45:23 +0530] #<Proc:0x007fc1d278c468@/home/vinny/arachni/lib/arachni/report/manager.rb:60>
+[2013-01-16 15:45:23 +0530] 
+[2013-01-16 15:45:23 +0530] Caller:
+[2013-01-16 15:45:23 +0530] /home/vinny/arachni/lib/arachni/utilities.rb:276:in `exception_jail'
+[2013-01-16 15:45:23 +0530] /home/vinny/arachni/lib/arachni/report/manager.rb:60:in `block in run'
+[2013-01-16 15:45:23 +0530] /home/vinny/arachni/lib/arachni/report/manager.rb:59:in `each'
+[2013-01-16 15:45:23 +0530] /home/vinny/arachni/lib/arachni/report/manager.rb:59:in `run'
+[2013-01-16 15:45:23 +0530] /home/vinny/arachni/lib/arachni/framework.rb:195:in `run'
+[2013-01-16 15:45:23 +0530] /home/vinny/arachni/lib/arachni/ui/cli/cli.rb:104:in `block in run'
+[2013-01-16 15:45:23 +0530] --------------------------------------------------------------------------------
+
+2013-01-17 16:50:34 +0530 --------------------------------------------------------------------------------
+ENV:
+
+2013-01-17 17:17:12 +0530 --------------------------------------------------------------------------------
+ENV:

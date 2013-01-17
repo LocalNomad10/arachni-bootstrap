@@ -1,0 +1,85 @@
+<%# Encoding: utf-8%>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" xml:lang="en-US">
+    <head>
+      <title><%= title_url %> :: Entersoft Web Application Security Report</title>
+
+      <!--
+          Design by:
+            * Christos Chiotis <chris@survivetheinternet.com>
+            * Tasos "Zapotek" Laskos <tasos.laskos@gmail.com>
+
+          Copyright (c) Entersoft 2012-2013.
+           -->
+
+      <script type="text/javascript">
+      //<![CDATA[
+        <%=erb 'js/init.js', { graph_data: graph_data } %>
+      //]]>
+      </script>
+
+      <style type="text/css">
+      /*<![CDATA[*/
+        <%=erb 'css/jquery.jqplot.min.css' %>
+        <%=erb 'css/jquery-ui.css' %>
+        <%=erb 'css/main.css' %>
+      /*]]>*/
+      </style>
+
+    </head>
+
+    <body>
+      <div class="container">
+
+        <div class="navbar" style="padding-top:4px;">
+    <div class="pagination-centered">
+      <h1>Entersoft Scanned Report</h1>
+    </div>
+  </div>
+  <div class="tabbable">
+    <nav>
+      <ul class="nav nav-tabs">
+        <li><a href="#summary" data-toggle="tab"><h4>Summary</h4></a></li>
+        <li><a href="#issues" data-toggle="tab"><h4>Issues</h4></a></li>
+        <li><a href="#plugins" data-toggle="tab"><h4>Plugin Results</h4></a></li>
+        <li><a href="#sitemap" data-toggle="tab"><h4>Sitemap</h4></a></li>
+        <li><a href="#configuration" data-toggle="tab"><h4>Configuration</h4></a></li>
+      </ul>
+    </nav>
+    <div class="tab-content">
+     <div class="tab-pane active" id="summary">
+
+            
+                <%= erb :summary, { auditstore: auditstore } %>
+            </div>
+
+            <section class="tab" id="configuration">
+                <%= erb :configuration, { auditstore: auditstore} %>
+            </section>
+
+            <section class="tab" id="issues">
+                <%= erb :issues, {
+                        auditstore:             auditstore,
+                        filtered_hashes:        filtered_hashes,
+                        anomalous_hashes:       anomalous_hashes,
+                        anomalous_meta_results: anomalous_meta_results,
+                        crypto_issues:          crypto_issues
+                    }
+                %>
+            </section>
+
+            <section class="tab" id="plugins">
+                <%= erb :plugins, { auditstore: auditstore, plugins: plugins } %>
+            </section>
+
+            <section class="tab" id="sitemap">
+                <%= erb :sitemap, { auditstore: auditstore } %>
+            </section>
+</div>
+</div>
+        </div>
+    </body>
+</html>

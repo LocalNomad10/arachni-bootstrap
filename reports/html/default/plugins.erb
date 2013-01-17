@@ -1,0 +1,26 @@
+            <h2>Plugin results</h2>
+
+            <div id="plugin-tabs">
+              <div class="tabbable">
+                <nav>
+                 <ul class="nav nav-tabs">
+                    <% plugins.each_pair do |name, html|%>
+                    <li><a href="#<%=name%>"><%=get_plugin_info( name )[:name]%></a></li>
+                    <% end %>
+                </ul>
+            </nav>
+
+
+            <% plugins.each_pair do |name, html|%>
+            <div id="<%=name%>">
+                <span class="badge badge-warning">
+                    <%=prep_description( get_plugin_info( name )[:description] )%>
+                </span><br/>
+
+                <p><%=html.force_encoding( 'utf-8' )%></p>
+            </div>
+
+            <% end %>
+        </div>
+    </div>
+</section>

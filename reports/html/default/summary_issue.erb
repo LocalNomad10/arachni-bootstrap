@@ -1,0 +1,19 @@
+    <div class="issue">
+        <h4>[<%=i+1%>] <%= issue.name %></h4><span class="label label-warning">( Severity: <%= issue.severity %> )</span>
+
+        <p class="text-info"> <em><%= escapeHTML(issue.description) %></em></p>
+
+        In <em><%= issue.elem %></em>
+
+        <% if issue.var%>
+        input <em><%= issue.var %></em>
+        <%end%>
+
+        <% if issue.method %>
+        using <%= issue.method %>
+        <%end%>
+
+        at <strong><a href="<%= issue.url %>"><%= issue.url %></a></strong>.
+
+        <p>&nbsp;</p>
+    </div>
